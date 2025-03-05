@@ -46,6 +46,43 @@ header nav img {
     border-radius: 100%;
 }
 
+#placas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 40px;
+    gap: 50px;
+}
+
+.catalogo {
+    max-width: 400px;
+    text-align: center;
+    background-color: #686767;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.catalogo img {
+    width: 100%;
+}
+
+h3 {
+    margin: 5px;
+}
+
+h4 {
+    margin: 5px;
+}
+
+button {
+    background-color: #2C3E50;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    border: unset;
+    cursor: pointer;
+}
+
 footer {
     margin-top: auto;
     box-shadow: 0 -3px 5px rgba(0, 10, 10, 1.1);
