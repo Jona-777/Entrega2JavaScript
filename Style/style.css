@@ -46,12 +46,31 @@ header nav img {
     border-radius: 100%;
 }
 
-#placas {
+#placas-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px 40px;
     gap: 50px;
+}
+
+#carrito-container {
+    width: 500px;
+    margin: auto;
+}
+
+.item-carrito {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.item-carrito img{
+    height: 160px;
+}
+
+.item-carrito h3 {
+    width: 130px;
 }
 
 .catalogo {
@@ -64,6 +83,12 @@ header nav img {
 
 .catalogo img {
     width: 100%;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    margin: 0 0 20px 0;
 }
 
 h3 {
